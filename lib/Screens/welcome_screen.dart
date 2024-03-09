@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:jobgo_app/Screens/welcome_back_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -13,12 +14,12 @@ class WelcomeScreen extends StatelessWidget {
         padding: EdgeInsets.all(20),
         child: Column(
           children: [
-            SizedBox(height: 50),
+            SizedBox(height: 30),
             Padding(
                 padding: EdgeInsets.all(20),
             child: Image.asset("assets/images/welcome_img.png",)
             ),
-            SizedBox(height: 50),
+            SizedBox(height: 30),
             Text("Find a Perfect",
               style: TextStyle(
                 fontSize: 40,
@@ -48,9 +49,13 @@ class WelcomeScreen extends StatelessWidget {
                   wordSpacing: 2
               ),
             ),
-            SizedBox(height: 50),
+            SizedBox(height: 30),
             InkWell(
-              onTap: (){},
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(
+                    builder: (context) => WelcomeBackScreen()
+                ));
+              },
               child: Container(
                 margin: EdgeInsets.symmetric(horizontal: 20, vertical: 50),
                 padding: EdgeInsets.symmetric(vertical: 20),

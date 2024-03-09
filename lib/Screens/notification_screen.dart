@@ -12,7 +12,7 @@ class NotificationScreen extends StatelessWidget {
           children: [
             Text("Notification",
             style: TextStyle(
-              fontSize: 30,
+              fontSize: 20,
               fontWeight: FontWeight.bold
             ),
             ),
@@ -24,13 +24,14 @@ class NotificationScreen extends StatelessWidget {
             icon: Icon(Icons.arrow_back_ios_new))
       ),
       body: Container(
+
         child: Column(
           children: [
             ListTile(
               title: Text("New Post",
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 25
+                    fontSize: 20
                 ),),
               subtitle: Text("if any new post update"),
               trailing: Switch(
@@ -45,7 +46,7 @@ class NotificationScreen extends StatelessWidget {
               title: Text("Get Hired",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
-                fontSize: 25
+                fontSize: 20
               ),
               ),
               subtitle: Text("if you get hired any company"),
@@ -61,7 +62,7 @@ class NotificationScreen extends StatelessWidget {
               title: Text("Get Rejected",
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 25
+                    fontSize: 20
                 ),),
               subtitle: Text("if any rejected by any company"),
               trailing: Switch(
@@ -75,7 +76,7 @@ class NotificationScreen extends StatelessWidget {
               title: Text("Message",
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 25
+                    fontSize: 20
                 ),),
               subtitle: Text("Got any new messages"),
               trailing: Switch(
@@ -90,7 +91,7 @@ class NotificationScreen extends StatelessWidget {
               title: Text("Call",
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 25
+                    fontSize: 20
                 ),),
               subtitle: Text("Have a call"),
               trailing: Switch(
@@ -104,7 +105,7 @@ class NotificationScreen extends StatelessWidget {
               title: Text("Dark Mode",
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 25
+                    fontSize: 20
                 ),),
               subtitle: Text("Enable dark theme"),
               trailing: Switch(

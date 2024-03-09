@@ -20,7 +20,7 @@ class ApplicationScreen extends StatelessWidget {
             Text("Applications",
             style: TextStyle(
               fontSize: 20,
-              fontWeight: FontWeight.bold
+
             ),)
           ],
         ),
@@ -35,7 +35,7 @@ class ApplicationScreen extends StatelessWidget {
         children: [
            Text("Your Applications",
            style: TextStyle(
-             fontWeight: FontWeight.bold,
+
              fontSize: 25,
              color: Colors.black
            ),

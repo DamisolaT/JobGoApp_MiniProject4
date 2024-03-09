@@ -133,9 +133,11 @@ class _WelcomeBackScreenState extends State<WelcomeBackScreen> {
                   Container(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      mainAxisSize: MainAxisSize.min,
                       children: [
-                        Image.asset("assets/images/google_img.png",height: 50,),
-                        Image.asset("assets/images/facebook_img.png",height: 50,)
+                        Image.asset("assets/images/google_img.png",height: 30,),
+                        SizedBox(width: 10,),
+                        Image.asset("assets/images/facebook_img.png",height: 30,)
                        // Image.asset("assets/images/welcome_img.png",)
                       ],
                     ),

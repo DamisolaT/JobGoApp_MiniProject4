@@ -63,7 +63,7 @@ class Dribble_icon_application_screen extends StatelessWidget {
                   child: Text(
                     "Delivered",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 15,
                         color: Colors.pinkAccent[700],
                         fontWeight: FontWeight.bold
                     ),)),
@@ -72,7 +72,7 @@ class Dribble_icon_application_screen extends StatelessWidget {
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Colors.pink[700],
-                    fontSize: 18
+                    fontSize: 15
                 ),)
             ],
           )

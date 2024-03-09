@@ -61,7 +61,7 @@ class Shopify_icon_application_screen extends StatelessWidget {
                   ),
                   child: Text("Pending",
                     style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 15,
                         color: Colors.green[700],
                         fontWeight: FontWeight.bold
                     ),)),
@@ -70,7 +70,7 @@ class Shopify_icon_application_screen extends StatelessWidget {
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Colors.green[300],
-                    fontSize: 18
+                    fontSize: 15
                 ),)
             ],
           )

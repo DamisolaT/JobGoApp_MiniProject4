@@ -46,10 +46,14 @@ class _WelcomeBackScreenState extends State<RegisterAccountScreen> {
                         hintText: "User Name",
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(18),
-                            borderSide: BorderSide.none),
+                            borderSide: BorderSide(
+                              color: Colors.white54,
+
+                            )),
                         fillColor: Colors.white70.withOpacity(0.1),
                         filled: true,
                         prefixIcon: const Icon(Icons.person),
+
 
                     ),
                     obscureText: true,
@@ -60,7 +64,9 @@ class _WelcomeBackScreenState extends State<RegisterAccountScreen> {
                         hintText: "Email Address",
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(18),
-                            borderSide: BorderSide.none
+                            borderSide: BorderSide(
+                              color: Colors.white54
+                            )
                         ),
                         fillColor: Colors.white70.withOpacity(0.1),
                         filled: true,
@@ -72,7 +78,9 @@ class _WelcomeBackScreenState extends State<RegisterAccountScreen> {
                         hintText: "Password",
                         border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(18),
-                            borderSide: BorderSide.none),
+                            borderSide: BorderSide(
+                              color: Colors.white54
+                            )),
                         fillColor: Colors.white70.withOpacity(0.1),
                         filled: true,
                         prefixIcon: const Icon(Icons.lock),
@@ -133,8 +141,10 @@ class _WelcomeBackScreenState extends State<RegisterAccountScreen> {
                   Container(
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      mainAxisSize: MainAxisSize.min,
                       children: [
                         Image.asset("assets/images/google_img.png",height: 40,),
+                        SizedBox(width: 10,),
                         Image.asset("assets/images/facebook_img.png",height: 40,)
                         // Image.asset("assets/images/welcome_img.png",)
                       ],
