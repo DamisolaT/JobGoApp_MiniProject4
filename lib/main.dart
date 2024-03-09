@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:jobgo_app/Screens/application_screen.dart';
 
 import 'package:jobgo_app/Screens/chat_view_screen.dart';
+import 'package:jobgo_app/Screens/message_screen.dart';
+import 'package:jobgo_app/Screens/notification_screen.dart';
 import 'package:jobgo_app/Screens/settings_screen.dart';
 import 'package:jobgo_app/Screens/welcome_back_screen.dart';
 
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ApplicationScreen() ,
+      home: MessageScreen() ,
     );
   }
 }
