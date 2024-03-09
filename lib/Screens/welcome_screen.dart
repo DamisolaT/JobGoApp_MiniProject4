@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:jobgo_app/Screens/welcome_back_screen.dart';
+import 'package:jobgo_app/Screens/welcomeback/welcomeback_page/welcome_back_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});

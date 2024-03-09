@@ -1,7 +1,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:jobgo_app/Widgets/settings_item.dart';
+import 'package:jobgo_app/Screens/settings/settings_widgets/settings_item.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});

@@ -1,9 +1,9 @@
 
 import 'package:flutter/material.dart';
-import 'package:jobgo_app/Widgets/dribble_icon_application_screen.dart';
-import 'package:jobgo_app/Widgets/facebook_icon_application_screen.dart';
-import 'package:jobgo_app/Widgets/google_icon_application_screen.dart';
-import 'package:jobgo_app/Widgets/shopify_icon_application_screen.dart';
+import 'package:jobgo_app/Screens/application/application_widgets/dribble_icon_application_screen.dart';
+import 'package:jobgo_app/Screens/application/application_widgets/facebook_icon_application_screen.dart';
+import 'package:jobgo_app/Screens/application/application_widgets/google_icon_application_screen.dart';
+import 'package:jobgo_app/Screens/application/application_widgets/shopify_icon_application_screen.dart';
 
 class ApplicationScreen extends StatelessWidget {
   const ApplicationScreen({super.key});
